@@ -1,0 +1,16 @@
+export const BOLD_TIPS = '粗体(Cmd+B)';
+export const ITALIC_TIPS = '斜体(Cmd+I)';
+export const UNDERLINE_TIPS = '下划线(Cmd+U)';
+export const STRIKETHROUGH_TIPS = '中划线';
+export const OL_TIPS = '有序列表(Cmd+Shift+U)';
+export const UL_TIPS = '无序列表(Cmd+Shift+L)';
+export const CHECKBOX_TIPS = '任务列表(Cmd+Shift+Y)';
+export const TITLE_TIPS = '标题(Cmd+Shift+K)';
+export const FONT_TIPS = '字体颜色';
+export const INDENT_TIPS = '增加缩进(TAB)';
+export const OUTDENT_TIPS = '减少缩进(Shift+TAB)';
+export const ALIGN_TIPS = '对齐';
+export const ALIGN_LEFT_TIPS = '左对齐';
+export const ALIGN_RIGHT_TIPS = '右对齐';
+export const ALIGN_CENTER_TIPS = '居中对齐';
+export const ALIGN_JUSTIFY_TIPS = '两端对齐';

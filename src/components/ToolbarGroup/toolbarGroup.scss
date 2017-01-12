@@ -1,0 +1,12 @@
+.vania-toolbar {
+    width: 70%;
+    margin: 0 auto;
+    & > ul {
+        list-style: none;
+        & > li {
+            display: block;
+            float: left;
+            box-sizing: border-box;
+        }
+    }
+}

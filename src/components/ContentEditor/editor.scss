@@ -1,0 +1,45 @@
+.vania-section-editor {
+    &Toolbar {
+        position: relative;
+        left: 0;
+        top: 0;
+        height: 1rem;
+        width: 100%;
+        padding: 1rem;
+    }
+    &Content {
+        width: 100%;
+        height: calc(100vh - 6rem);
+        position: relative;
+        overflow-y: auto;
+        box-shadow: 1px 1px 1px 1px rgba(100,100,100,0.15);
+    }
+    &Title {
+        height: 5rem;
+        background: #fff;
+        margin: 0 auto;
+        width: 70%;
+    }
+    &Context {
+        height: 30rem;
+        background: #fff;
+        margin: 0 auto;
+        outline: none;
+        padding-top: 1rem;
+        padding: 2rem;
+        width: calc(70% - 4rem);
+    }
+    &TitleInput {
+        height: 3rem;
+        width: 90%; 
+        margin-left: 2rem;
+        margin-top: 2rem;
+        border: none;
+        outline: none;
+        font-size: 1.5rem;
+        border-bottom: 1px solid #ccc;
+        &::-webkit-input-placeholder {
+            color: #ccc;
+        }
+    }
+}

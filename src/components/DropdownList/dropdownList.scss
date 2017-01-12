@@ -1,0 +1,21 @@
+.vania-dropdownList {
+    padding: 0;
+    background: #fff;
+    border-radius: .2rem;
+    box-shadow: 1px 1px 5px #333;
+    z-index: 998;
+    text-align: center;
+    white-space: nowrap;
+    top: 3em;
+    position: absolute;
+    &-arrow {
+        width: 0;
+        height: 0;
+        position: absolute;
+        border-left: .6rem solid transparent;
+        border-right: .6rem solid transparent;
+        border-bottom: .6rem solid #fff;
+        top: -.6rem;
+        left: calc(50% - .6rem);
+    }
+}

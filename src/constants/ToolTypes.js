@@ -1,0 +1,17 @@
+export const BOLD = 'BOLD';
+export const ITALIC = 'ITALIC';
+export const CHECK = 'CHECK';
+export const UNDERLINE = 'UNDERLINE';
+export const STRIKETHROUGH = 'STRIKETHROUGH';
+export const InsertOrderedList = 'InsertOrderedList';
+export const InsertUnorderedList = 'InsertUnorderedList';
+export const InsertInputCheckbox = 'InsertInputCheckbox';
+export const BackColor = 'BackColor';
+export const ForeColor = 'ForeColor';
+export const InsertImage = 'InsertImage';
+export const INDENT = 'Indent';
+export const OUTDENT = 'Outdent';
+export const Justify = 'JustifyFull';
+export const JustifyCenter = 'JustifyCenter';
+export const JustifyLeft = 'JustifyLeft';
+export const JustifyRight = 'JustifyRight';

@@ -1,0 +1,55 @@
+$tips-bg-style: #4b4b4b;
+$tips-font-style: #fff;
+
+.vania-tips {
+    position: absolute;
+    line-height: 2.5em;
+    padding: 0 1em;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: .2em;
+    background: $tips-bg-style;
+    font-size: .8em;
+    color: $tips-font-style;
+    z-index: 999;
+    top: 2.5em;
+    left: 50%;
+}
+
+.vania-tips-arrow {
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+
+.topArrow {
+    border-left: .5em solid transparent;
+    border-right: .5em solid transparent;
+    border-bottom: .5em solid $tips-bg-style;
+    top: -.5em;
+    left: 50%;
+    margin-left: -0.5em;
+}
+.bottomArrow {
+    border-left: .5em solid transparent;
+    border-right: .5em solid transparent;
+    border-top: .5em solid $tips-bg-style;
+    bottom: -.5em;
+    left: 43%;
+}
+
+.leftArrow {
+    border-top: .4em solid transparent;
+    border-bottom: .4em solid transparent; 
+    border-right: .4em solid$tips-bg-style; 
+    left: -.3em;
+    top: 35%;
+}
+
+.rightArrow {
+    border-top: .4em solid transparent;
+    border-bottom: .4em solid transparent;
+    border-left: .4em solid $tips-bg-style;
+    right: -.3em;
+    top: 35%;
+}
